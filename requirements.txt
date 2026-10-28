@@ -1,0 +1,8 @@
+pandas>=2.0
+datasets>=2.14
+# Training / evaluation only (run on Colab T4, not required for the data pipeline):
+# torch --index-url https://download.pytorch.org/whl/cpu  (CPU) or default CUDA wheel
+# transformers>=4.36
+# peft>=0.7
+# accelerate>=0.25
+pytest>=7.0
